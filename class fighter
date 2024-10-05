@@ -1,0 +1,21 @@
+class Fighter():
+    def __init__(self,name,record,height, weight, country):
+        self.name = name
+        self.record = record
+        self.height = height
+        self.weight = weight
+        self.country = country
+    
+    def get_name(self):
+        return self.name
+    def get_record(self):
+        return self.record
+    def set_record(self):
+        self.record = input()
+        return 'done'
+    def get_height(self):
+        return self.height
+    def get_weight(self):
+        return self.weight
+    def get_country(self):
+        return self.country
